@@ -1,7 +1,9 @@
 export class LocatorValue {
 
     // Common locators from application
-    static readonly pageHeader = 'main.main-content h6.header';
+    static readonly pageHeader = 'main.main-content';
+    static readonly headerTag6 = ' h6';
+    static readonly headerTag2 = ' h2';
 
     // Login Page Selectors
     static readonly emailTxtField = '#Email';

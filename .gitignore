@@ -5,7 +5,8 @@ bin/
 /lib/
 /logs/
 /modules
-/node-modules
+/playwright-report/
+/playwright/.cache/
 /project/project
 /project/target
 /target
@@ -16,3 +17,4 @@ server.pid
 /dist/
 .cache
 package-lock.json
+node_modules

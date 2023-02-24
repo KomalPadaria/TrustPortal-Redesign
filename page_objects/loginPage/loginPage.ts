@@ -21,11 +21,12 @@ export class LoginPage extends BasePage {
         this.closeErrorMsgIcon = page.locator(LocatorValue.errorCloseIcon);
     }
 
-    async doLogIn(username: string, password: string) {
+    async clickLogin() {
+        await this.clickOnElement(this.loginBtn);
+    }
+
+    async fillUserNameAndPassword(username: string, password: string) {
         await this.enterTxt(this.emailField, username);
         await this.enterTxt(this.passwordField, password);
-
-        await this.clickOnElement(this.loginBtn);
-        // await this.page.waitForSelector(LocatorValue.pageHeader);
     }
 }

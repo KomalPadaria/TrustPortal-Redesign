@@ -1,0 +1,373 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "rdts001:-verify-login-functionality;rdtc1001:-check-login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "RDTC1001: Check login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6610247399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Valid login credentials",
+            "match": {
+              "location": "steps\\login.steps.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 204653199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User click Login",
+            "match": {
+              "location": "steps\\login.steps.ts:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 246382299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User should login successfully and redirect to Dashboard screen",
+            "match": {
+              "location": "steps\\login.steps.ts:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6367941700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 274899100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "rdts001:-verify-login-functionality;rdtc1002:-check-login-with-valid-email(togglecase)-and-valid-password",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "RDTC1002: Check login with valid email(togglecase) and valid password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2174536399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "Valid login credentials with toggle case",
+            "match": {
+              "location": "steps\\login.steps.ts:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 260970999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "User click Login",
+            "match": {
+              "location": "steps\\login.steps.ts:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 285705299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "User should login successfully and redirect to Dashboard screen",
+            "match": {
+              "location": "steps\\login.steps.ts:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4860042999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 259768999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "rdts001:-verify-login-functionality;rdtc1003:-check-login-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "RDTC1003: Check login with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1880990199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "Invalid login credentials",
+            "match": {
+              "location": "steps\\login.steps.ts:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 408547500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "User click Login",
+            "match": {
+              "location": "steps\\login.steps.ts:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 276296300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "User should not be able to login and user must receive toast message: \"Username or password incorrect\"",
+            "match": {
+              "location": "steps\\login.steps.ts:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2977389600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 720248199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "rdts001:-verify-login-functionality;rdtc1007:-check-if-user-is-able-to-navigate-to-all-menu-options-after-login",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "RDTC1007: Check if user is able to navigate to all menu options after login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1846130099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "Valid login credentials",
+            "match": {
+              "location": "steps\\login.steps.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 262388698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "User click Login",
+            "match": {
+              "location": "steps\\login.steps.ts:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 270744099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "User able to navigate to all menu options after login",
+            "match": {
+              "location": "steps\\login.steps.ts:134"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11782151399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 250901600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "rdts001:-verify-login-functionality;rdtc1008:-check-if-user-is-able-to-logout",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "RDTC1008: Check if user is able to logout",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1923809799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "Valid login credentials",
+            "match": {
+              "location": "steps\\login.steps.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 230865498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "User click Login",
+            "match": {
+              "location": "steps\\login.steps.ts:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 276629099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "User able to logout",
+            "match": {
+              "location": "steps\\login.steps.ts:261"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4775796599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 242652799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "rdts001:-verify-login-functionality",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "RDTS001: Verify login functionality",
+    "tags": [
+      {
+        "name": "@login",
+        "line": 1
+      }
+    ],
+    "uri": "features\\login.feature"
+  }
+]
